@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ぺそとおかかの部屋 | ゲーム実況・面白動画</title>
+    <meta name="description" content="ぺそとおかかの部屋（@peso-oka-game）の公式紹介ページ。ゲーム実況やマインクラフト、ショート動画などの面白動画をお届けします。">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="header-overlay"></div>
+        <div class="container header-container">
+            <h1 class="channel-name">ぺそとおかかの部屋</h1>
+            <p class="catchphrase">ゲーム実況・面白動画をお届け</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section channel-overview scroll-animate">
+            <div class="container">
+                <h2 class="section-title">Channel Overview</h2>
+                <div class="section-content">
+                    <p class="overview-text">
+                        YouTubeチャンネル「ぺそとおかかの部屋」へようこそ！<br>
+                        私たちは、マインクラフトを中心としたゲーム実況や、<br class="pc-only">
+                        日常のクスッと笑えるショート動画を投稿しています。
+                    </p>
+                    <div class="member-profiles">
+                        <div class="profiles-container">
+                            <figure class="profiles-visual">
+                                <img src="images/chars.png" alt="ぺそとおかか" class="chars-img">
+                            </figure>
+                            <div class="profiles-text">
+                                <div class="profile-card">
+                                    <h3 class="profile-name">ぺそぎそ <span class="profile-en">Peso</span></h3>
+                                    <p class="profile-desc">
+                                        スーツに謎の被り物がトレードマーク。<br>
+                                        常にハイテンションなボケ役。<br>
+                                        マインクラフトのPVPが得意。
+                                    </p>
+                                </div>
+                                <div class="profile-card">
+                                    <h3 class="profile-name">おかか <span class="profile-en">Okaka</span></h3>
+                                    <p class="profile-desc">
+                                        パーカー姿の元気担当。<br>
+                                        冷静沈着なツッコミ役（？）<br>
+                                        実はマイクラが嫌い。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 登録者カウンター -->
+                    <div class="subscriber-tracker scroll-animate">
+                        <div class="tracker-container">
+                            <div class="tracker-header">
+                                <span class="tracker-label">現在のYouTube登録者数</span>
+                                <span class="live-badge">LIVE estimate</span>
+                            </div>
+                            <div class="tracker-count-wrapper">
+                                <span id="subscriber-count" class="tracker-count">---</span>
+                                <span class="tracker-unit">人</span>
+                            </div>
+                            <div class="tracker-goal-wrapper">
+                                <div class="goal-info">
+                                    <span class="goal-label">次の目標: <span class="goal-target">500</span>人</span>
+                                    <span class="goal-percentage" id="goal-percentage">--%</span>
+                                </div>
+                                <div class="progress-bar-container">
+                                    <div id="progress-fill" class="progress-fill" style="width: 0%"></div>
+                                </div>
+                                <p class="goal-message">応援よろしくお願いします！</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links-wrapper scroll-animate">
+                        <p class="social-title">Follow Us!</p>
+                        <div class="social-links">
+                            <a href="https://www.youtube.com/@peso-oka-game" target="_blank" rel="noopener noreferrer"
+                                class="social-icon youtube" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://x.com/pesokaka" target="_blank" rel="noopener noreferrer"
+                                class="social-icon twitter" aria-label="X (Twitter)">
+                                <i class="fab fa-x-twitter"></i>
+                            </a>
+                            <a href="https://www.instagram.com/peso.okaka/" target="_blank" rel="noopener noreferrer"
+                                class="social-icon instagram" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://line.me/ti/g2/FshDdbma46NNsrCOKZ5LzuFznB-bjqYulc-1OA?utm_source=invitation&utm_medium=link_copy&utm_campaign=default"
+                                target="_blank" rel="noopener noreferrer" class="social-icon line"
+                                aria-label="OpenChat">
+                                <i class="fa-brands fa-line"></i>
+                            </a>
+                            <a href="https://discord.gg/nuAhZ92uk5" target="_blank" rel="noopener noreferrer"
+                                class="social-icon discord" aria-label="Discord">
+                                <i class="fab fa-discord"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section broadcast-info scroll-animate">
+            <div class="container">
+                <div class="broadcast-card">
+                    <img src="images/broadcast_icon.png" alt="ON AIR" class="broadcast-icon">
+                    <div class="broadcast-content">
+                        <h2 class="broadcast-title">ON AIR Info</h2>
+                        <p class="broadcast-text">
+                            毎週日曜日の夜、<br>
+                            たま〜に配信してるかも？<br>
+                            <span class="small-text">※ 気まぐれ開催です。通知をONにして待っててね！</span>
+                        </p>
+
+                        <div class="hive-info">
+                            <img src="images/hive_logo.png" alt="The Hive" class="hive-logo">
+                            <p class="hive-text">
+                                <span class="hive-highlight">HIVEサーバー</span>で参加型配信中！<br>
+                                初心者さんも大歓迎🔰<br>
+                                一緒にわいわい遊びましょう！
+                            </p>
+                        </div>
+
+                        <a href="https://www.youtube.com/@peso-oka-game" target="_blank" rel="noopener noreferrer"
+                            class="broadcast-link">
+                            チャンネルをチェックする ➔
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section featured-video scroll-animate">
+            <div class="container">
+                <h2 class="section-title">Featured Video</h2>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/VyvGwxBoBkg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+                    </iframe>
+                </div>
+                <p class="video-caption">今週のイチオシ動画！</p>
+            </div>
+        </section>
+
+        <section class="section recommended-videos scroll-animate">
+            <div class="container">
+                <h2 class="section-title">Recommended</h2>
+                <ul class="video-list">
+                    <li class="video-item">
+                        <a href="https://www.youtube.com/@peso-oka-game/shorts" target="_blank"
+                            rel="noopener noreferrer" class="video-link">
+                            <div class="video-info">
+                                <h3 class="video-title">爆笑ショート動画シリーズ</h3>
+                                <p class="video-desc">サクッと見れる面白動画集</p>
+                            </div>
+                            <span class="arrow">➔</span>
+                        </a>
+                    </li>
+                    <li class="video-item">
+                        <a href="https://www.youtube.com/@peso-oka-game/search?query=Minecraft" target="_blank"
+                            rel="noopener noreferrer" class="video-link">
+                            <div class="video-info">
+                                <h3 class="video-title">マインクラフト実況</h3>
+                                <p class="video-desc">冒険と建築のドタバタ記録</p>
+                            </div>
+                            <span class="arrow">➔</span>
+                        </a>
+                    </li>
+                    <li class="video-item">
+                        <a href="https://www.youtube.com/@peso-oka-game/videos" target="_blank"
+                            rel="noopener noreferrer" class="video-link">
+                            <div class="video-info">
+                                <h3 class="video-title">最新動画をチェック</h3>
+                                <p class="video-desc">全ての投稿動画一覧へ</p>
+                            </div>
+                            <span class="arrow">➔</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p class="copyright">&copy; 2024 Peso & Okaka Room. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
